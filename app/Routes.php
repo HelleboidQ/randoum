@@ -29,6 +29,9 @@ Router::any('/utilisateur/modification', 'App\Modules\User\User@change_password'
 // Piece Routing
 Router::any('/piece', 'App\Controllers\Piece@index');
 
+// Nombre Random Routing 
+Router::any('/random', 'App\Controllers\NombreRandom@index');
+
 // ORM Generator
 if($_SERVER["SERVER_NAME"]=="localhost") {
     Router::any("generateorm",'App\Modules\ORM\ORMGenerator@index');

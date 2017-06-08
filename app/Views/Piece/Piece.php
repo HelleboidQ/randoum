@@ -2,7 +2,7 @@
 $result_piece = rand(0,1);
 ?>
 
-<div id="piece" >
+<div id="piece" class="col-xs-12">
 	<img src="app/Templates/Default/Assets/images/pile.png" id="pile" width="200"  height="200" onclick="toto();" />
 	<!--<ul class="fc-slides">
 		<li>

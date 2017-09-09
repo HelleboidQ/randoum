@@ -7,3 +7,4 @@
 <a class="btn btn-md btn-success" href="<?=DIR;?>subpage">
 	<?php echo Language::show('openSubPage', 'Welcome'); ?>
 </a>
+
